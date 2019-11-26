@@ -1,5 +1,10 @@
-#twitter > .fa-circle {
+.fa-circle {
   color: #38a1f3;
+}
+
+.fa-stack:hover {
+  color: #38a1f3;
+  filter: opacity(0.65);
 }
 
 #twitter:hover {
