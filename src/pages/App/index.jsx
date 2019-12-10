@@ -90,6 +90,7 @@ class App extends Component {
         </Helmet>
         <Router>
           <Navigation
+          //logo="https://vancouver.ca/plan-your-vote/img/cov_logo.png.png"
             logo={this.state.images.find(image => {
               return image.placement === 'Logo';
             })}
